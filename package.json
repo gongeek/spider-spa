@@ -1,6 +1,6 @@
 {
   "name": "spider-spa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fetch html for spa web application",
   "main": "index.js",
   "keywords": [
@@ -11,6 +11,6 @@
   "author": "gongeek",
   "license": "MIT",
   "dependencies": {
-    "phantomjs-prebuilt": "^2.1.13"
+    "phantomjs": "1.9.8"
   }
 }

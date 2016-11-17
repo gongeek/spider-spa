@@ -1,6 +1,6 @@
 var path = require('path');
 var childProcess = require('child_process');
-var phantomjs = require('phantomjs-prebuilt');
+var phantomjs = require('phantomjs');
 var binPath = phantomjs.path;
 
 function get(url) {
