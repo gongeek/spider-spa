@@ -5,9 +5,7 @@
 Fetch html after SPA application rendered  
 
 # Usage
-`1.you need Install phantomjs`
-
-`2.npm install spider-spa  --save`
+`1.npm install spider-spa  --save`
 
 ```js
 var  Spider=require('spider-spa')

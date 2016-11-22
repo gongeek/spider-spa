@@ -1,5 +1,4 @@
 var path = require('path');
-var childProcess = require('child_process');
 var phantomjs = require('phantomjs');
 var binPath = phantomjs.path;
 
@@ -9,7 +8,7 @@ function get(url) {
         url
     ];
     return new Promise(function (resolve, reject) {
-        childProcess.execFile(binPath, childArgs, {
+        require('child_process').execFile(binPath, childArgs, {
             maxBuffer: Number.MAX_VALUE
         }, function (err, stdout, stderr) {
             if (err) {
