@@ -1,6 +1,6 @@
 {
   "name": "spider-spa",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "fetch html for spa web application",
   "main": "index.js",
   "keywords": [
